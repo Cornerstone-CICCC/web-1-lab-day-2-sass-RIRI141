@@ -1,0 +1,19 @@
+header{
+    position: sticky;
+    top: 0;
+    background: $primary-color;
+    padding: 10px 10px;
+    z-index: 1;
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+}

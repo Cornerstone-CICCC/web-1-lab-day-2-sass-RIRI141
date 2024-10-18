@@ -1,0 +1,119 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #ff0;
+  padding: 10px 10px;
+  z-index: 1;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+main {
+  margin: 0;
+}
+main section h2 {
+  position: sticky;
+  top: 68px;
+  background: #0ff;
+  z-index: 1;
+}
+main section .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section .gallery img {
+  width: 33.3333333333%;
+  height: auto;
+}
+main .fruit-hover p {
+  padding: 10px 0;
+}
+main .fruit-hover figure {
+  position: relative;
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 0;
+}
+main .fruit-hover figure img {
+  width: 75%;
+  height: 75%;
+}
+main .fruit-hover figure figcaption {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background: #f00;
+  display: none;
+  color: #fff;
+}
+main .fruit-hover figure img:hover + figcaption {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+main .back-to-top-btn {
+  position: fixed;
+  background-color: #000;
+  right: 0;
+  bottom: 0;
+  padding: 5px 5px;
+}
+main .back-to-top-btn a {
+  color: #fff;
+}
+
+footer {
+  padding: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
